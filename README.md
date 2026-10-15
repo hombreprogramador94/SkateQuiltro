@@ -61,15 +61,27 @@ multiplicador hasta **×5**. Caerse corta el combo, pero no resta puntos.
 
 El récord se guarda en `PlayerPrefs` y se muestra en el menú y al terminar.
 
+## Cómo abrir el proyecto
+
+1. Descarga el repositorio: botón verde **Code → Download ZIP** y descomprímelo
+   (o `git clone https://github.com/hombreprogramador94/SkateQuiltro.git`).
+2. Instala **Unity 6000.6.5f1** desde Unity Hub (*Installs → Install Editor*).
+   Con otra versión de Unity 6 también abre, pero puede pedir actualizar el proyecto.
+3. En Unity Hub: **Add → Add project from disk** y elige la carpeta descomprimida
+   (la que contiene `Assets/`, `Packages/` y `ProjectSettings/`).
+4. La primera apertura tarda unos minutos: Unity regenera la carpeta `Library/`,
+   que no va en el repositorio.
+5. Abre la escena `Assets/Scenes/Menu.unity` y presiona **Play**.
+
+El arte original (exportado desde Canva) está en `Arte_nuevo/`, fuera de
+`Assets/` para que Unity no lo importe. Las versiones que usa el juego están en
+`Assets/Art/`.
+
 ## Cómo ejecutarlo
 
-El ejecutable compilado está en:
-
-```
-Builds/ULTIMA/SkateQuiltro.exe
-```
-
-No necesita instalación. Windows 64 bits.
+El build compilado (`Builds/ULTIMA/SkateQuiltro.exe`, Windows 64 bits) no se
+incluye en el repositorio. Se genera siguiendo los pasos de la sección
+siguiente.
 
 ## Cómo compilar
 
