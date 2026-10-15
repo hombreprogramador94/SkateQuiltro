@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87d56fa40b403be4ea508ad4e8bc8407, type: 3}
+  m_Name: Zona08_Cordillera_EmbalseElYeso
+  m_EditorClassIdentifier: Assembly-CSharp::ZonaData
+  zona: Cordillera
+  subzona: Embalse El Yeso
+  umbral: 24000
+  fondo: {fileID: 21300000, guid: 31fef0ad9b60e814a90edcfc15a87f3c, type: 3}
+  colorCielo: {r: 0.38, g: 0.56, b: 0.78, a: 1}
